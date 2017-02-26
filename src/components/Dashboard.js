@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-
 import Plant from './Plant';
 
 const Dashboard = React.createClass({
@@ -8,7 +7,8 @@ const Dashboard = React.createClass({
     return (
       <div>
         <h1>
-          <Link to="/">Plants!</Link>
+          <Link to="/">Plants Dashboard</Link>
+          { this.props.}
         </h1>
       </div>
     )

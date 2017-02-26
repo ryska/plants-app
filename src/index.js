@@ -10,7 +10,7 @@ import Dashboard from './components/Dashboard';
 
 import { Router, Route, IndexRoute } from 'react-router';
 import { Provider } from 'react-redux';
-import store, { history } from './store';
+import {store, history } from './store';
 
 export const router = (
   <Provider store={store}>

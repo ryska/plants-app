@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
@@ -15,4 +14,6 @@ function mapDispachToProps(dispatch) {
   return bindActionCreators(actionCreators, dispatch);
 }
 
-export const App = connect(mapStateToProps, mapDispachToProps)(Main);
+const App = connect(mapStateToProps, mapDispachToProps)(Main);
+
+export default App;
